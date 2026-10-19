@@ -1,0 +1,34 @@
+# Data files (too large for git)
+data/raw/*.parquet
+data/raw/*.csv
+data/processed/*.npz
+data/processed/*.npy
+
+# Output files (regenerable)
+output/*.json
+output/*.csv
+output/*.npz
+output/figures/
+output/reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PDF
+*.pdf
